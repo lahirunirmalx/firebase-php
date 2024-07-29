@@ -22,8 +22,15 @@
             "url": "https://github.com/sponsors/jeromegamez"
         }
     ],
+    "repositories": [
+
+        {
+            "type": "vcs",
+            "url": "https://github.com/lahirunirmalx/firebase-tokens-php"
+        }
+    ],
     "require": {
-        "php": "~8.1.0 || ~8.2.0 || ~8.3.0",
+        "php": "^7.2",
         "ext-ctype": "*",
         "ext-filter": "*",
         "ext-json": "*",
@@ -39,7 +46,7 @@
         "guzzlehttp/guzzle": "^7.5",
         "guzzlehttp/promises": "^2.0",
         "guzzlehttp/psr7": "^2.6",
-        "kreait/firebase-tokens": "^5.1",
+        "kreait/firebase-tokens": "dev-main",
         "lcobucci/jwt": "^4.3.0|^5.0",
         "mtdowling/jmespath.php": "^2.6.1",
         "psr/cache": "^1.0.1|^2.0|^3.0",
